@@ -1,16 +1,9 @@
 version: '3.8'
-
 services:
   web:
     build: .
     ports:
-      - "80:80"    # Внешний порт → контейнер
+      - "80:80"              # Selectel стандарт
     restart: unless-stopped
     environment:
       - NODE_ENV=production
-    volumes:
-      - ./public:/usr/share/nginx/html  # Панорамы останутся!
-
-networks:
-  default:
-    external: true
