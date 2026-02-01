@@ -1,7 +1,7 @@
 // НАСТРОЙТЕ ЗДЕСЬ ДАННЫЕ СТРАНИЦЫ С ВИДЕО
 const organizationName = 'Музей гимназии № 53 им. Г.М. Дорогобида — «Точка притяжения поколений»';
 
-const videoUrl = '/images/Video.mp4'; // YouTube embed URL
+const videoUrl = '/images/Video1.mp4'; // YouTube embed URL
 // Или используйте прямую ссылку на видео: '/path/to/video.mp4'
 
 const description = `
